@@ -23,11 +23,11 @@
 
 
 .happy-birthday {
-    font-size: 80px;
+    font-size: 40px;
     color: #fff; /* White color */
-    text-align: left;
+    text-align: center;
     position: absolute;
-    padding-right: 400px;
+    padding-right: 0;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -63,7 +63,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
+    padding: 20px;
+    padding-top: 100px;
     padding-right: 400px;
 }
 
@@ -72,7 +73,7 @@
     background-color: #e680aa;
     border-radius: 20px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    padding: 50px;
+    padding: 20px;
     margin-bottom: 40px;
 }
 
@@ -81,13 +82,13 @@
 }
 
 .card h3 {
-    font-size: 25px;
+    font-size: 18px;
     margin-bottom: 20px;
     color: #fff; /* Changed color to white */
 }
 
 .card img {
-    width: 150px;
+    width: 100px;
     height: auto;
     border-radius: 50%;
     margin: 20px auto;
@@ -102,7 +103,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start; /* Align items to the start (left) of the container */
-    padding-right: 400px; /* Add padding to the left side of the container */
+    padding-right: 0px; /* Add padding to the left side of the container */
 }
 
 .frame {
@@ -112,7 +113,7 @@
     padding: 20px;
     margin: 20px 0;
     text-align: center;
-    max-width: 600px;
+    max-width: 250px;
     display: flex;
     align-items: center;
     margin-bottom: 20px;
@@ -139,17 +140,16 @@
 }
 .footer {
     width: 100%;
-   
     padding: 20px;
 }
 
 .signature {
     font-family: 'Pacifico', cursive; /* Example font-family for handwriting effect */
-    font-size: 35px; /* Example font size */
+    font-size: 20px; /* Example font size */
     color: #fff; /* Example text color */
-    text-align: right; /* Align the text to the right side */
+    text-align: center; /* Align the text to the right side */
     margin: 0; /* Remove default margin */
-    padding-right: 460px; /* Add padding to the right side */
+    padding-right: 0px; /* Add padding to the right side */
     animation: rainbow 5s infinite, wave 1s ease-in-out infinite alternate, rainbow 7s linear infinite;
 }
 
@@ -186,5 +186,15 @@
     }
     100% {
         transform: translateX(-10px) translateY(0);
+    }
+}
+
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 600px) {
+    .container {
+        padding-top: 50px; /* Adjust top padding for smaller screens */
+    }
+    .happy-birthday {
+        font-size: 30px; /* Further decrease font size for smaller screens */
     }
 }
