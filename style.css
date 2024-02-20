@@ -63,7 +63,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-right: 400px;
+    padding-right: 50px;
 }
 
 /* Card Styling */
@@ -143,11 +143,11 @@
 
 .signature {
     font-family: 'Pacifico', cursive; /* Example font-family for handwriting effect */
-    font-size: 20px; /* Example font size */
+    font-size: 35px; /* Example font size */
     color: #fff; /* Example text color */
     text-align: center; /* Align the text to the right side */
     margin: 0; /* Remove default margin */
-    padding-right: 0px; /* Add padding to the right side */
+    padding-right: 20px; /* Add padding to the right side */
     animation: rainbow 5s infinite, wave 1s ease-in-out infinite alternate, rainbow 7s linear infinite;
 }
 
